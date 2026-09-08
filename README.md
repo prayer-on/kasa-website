@@ -6,14 +6,15 @@
 
 <h3>🚀 Demo:</h3>
 
-- (Coming soon !!)
+- [Live Preview](https://prayeronaiwukasa-website.vercel.app/)
+
 
 <h3>🛠️ Technologies:</h3>
 
-- React
-- React Router
-- Sass
-- JavaScript (ES6+)
+- `React`
+- `React Router`
+- `Sass`
+- `JavaScript (ES6+)`
 
 
 <h3>💻 Functionalities:</h3>
@@ -46,15 +47,20 @@ To run this project locally, you can follow these steps:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/prayer-on/PROJECT-5.git
+git clone https://github.com/prayer-on/kasa-website.git
 ```
 
-2. Install the dependencies:
+2. Select the Project folder:
+```bash
+cd kasa-website
+```
+
+3. Install the dependencies:
 ```bash
 npm install
 ```
 
-3. Start the server:
+4. Start the server:
 ```bash
 npm run start
 ```
