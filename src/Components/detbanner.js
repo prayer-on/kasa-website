@@ -5,7 +5,7 @@ import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 function DetailBanner({imageUrls =[]}) {
 
-const [currentIndex, setCurrentIndex] = useState(0);
+ const [currentIndex, setCurrentIndex] = useState(0);
     if (!imageUrls || imageUrls.length === 0) return null;
 
     const nextImage = () => {
@@ -21,7 +21,7 @@ const [currentIndex, setCurrentIndex] = useState(0);
     <img src ={imageUrls[currentIndex]}
          alt="slideshow of the property pictures"/>
     <button onClick={prevImage}><FontAwesomeIcon icon={faAngleLeft} className="slider-btn"/></button>
-    <button onClick={nextImage}><FontAwesomeIcon icon={faAngleRight}className="slider-btn"/></button>
+    <button onClick={nextImage}><FontAwesomeIcon icon={faAngleRight} className="slider-btn"/></button>
     </div>
     );
 }

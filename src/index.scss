@@ -2,6 +2,7 @@ $primary-color: #FF6060;
 $white: #FFFFFF;
 $black: #000000;
 
+
 @mixin slider-btn {
 color: $white;
 font-size: clamp(25px, 5vw,100px);
@@ -11,7 +12,7 @@ top:10vw;
 cursor: pointer;
 }
 @mixin banner {
-    border-radius: 25px;
+    border-radius: 15px;
     aspect-ratio: 1240 / 220;
     width: 100%;
     object-fit: cover;
@@ -40,6 +41,8 @@ cursor: pointer;
 margin: 0 50px;
 }
 
+
+
 *{margin: 0;
  padding: 0;}
 body {
@@ -47,7 +50,8 @@ body {
 }
 
 
-/* 404 page ⬇️ */
+
+/* 404 PAGE */
  header {
     display: flex;
     justify-content: space-between;
@@ -56,9 +60,13 @@ body {
 ul {
     list-style: none;
     font-family: "Montserrat";
-    font-size: 24px;
+    font-size: 15px;
     display: flex;
     gap: 20px;
+
+a {
+    text-decoration: none;
+}
 
     li:hover {
         text-decoration: underline;
@@ -66,6 +74,11 @@ ul {
 
     }
 }
+
+img {
+    max-width: 40%;
+}
+
  }
 
  footer {
@@ -82,7 +95,7 @@ ul {
     p {
         color: $white;
         font-family: "Montserrat";
-        font-size: 24px;
+        font-size: 16px;
         text-align: center;
     }
  }
@@ -118,7 +131,10 @@ margin-bottom: 60px;
 }
  }
  
-/* home page ⬇️ */
+
+
+
+/* HOMEPAGE */
 
 #coast-banner {
     position: relative;
@@ -136,7 +152,7 @@ margin-bottom: 60px;
     p
      {
         position: absolute;
-        font-size: clamp(24px, 5vw, 48px); 
+        font-size: clamp(14px, 4.5vw, 32px); 
         font-family: "Montserrat";
         z-index: 3;
         color: $white;
@@ -144,7 +160,8 @@ margin-bottom: 60px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) ;
-        width: 90%;
+        width: 100%;
+        max-width: 620px;
         text-align: center;
     }
 
@@ -155,29 +172,37 @@ margin-bottom: 60px;
     background-color: #F6F6F6;
     border-radius: 25px;
     margin: 50px 0;
-    padding: 40px ;
+    padding: 5px ;
     text-align: center;
+    
 
  .wrapper-card {
-        border:1px solid $primary-color;
-        border-radius: 10px;
-        background-image: linear-gradient(to bottom,$primary-color, #ce5353);
-        max-width: 340px;
-        aspect-ratio: 340/340;
-        width: 100%;
+        max-width: 320px;
+        aspect-ratio: 320/320;
         position: relative;
         display: inline-block;
         margin: 8px;
         cursor: pointer;
         
         .card{
-            font-size: 18px;
+            font-size: clamp(11px, 1.2vw + 6px, 15px);
             font-weight: 700;
             font-family: "Montserrat";
             position: absolute;
             bottom: 8px;
-            padding: 0 16px;
+            padding: 5px;
             color: $white;
+            position: absolute;
+            bottom: 5%;
+            max-height: 25px;
+        }
+
+        .image-card{
+            max-width: 320px;
+            border-radius: 10px;
+            aspect-ratio: 320/320;
+            width: 100%;
+            position: relative;
         }
     }
     }
@@ -186,7 +211,10 @@ margin-bottom: 60px;
 @include section-margin;
 }
 
-/* detail page ⬇️ */
+
+
+
+/* DETAIL PAGE */
 
 .detail-banner {
     overflow: hidden;
@@ -322,7 +350,11 @@ img {border-radius: 50%;
     width: 100%;
     gap: 20px;
 }
-/* about page ⬇️ */
+
+
+
+
+/* ABOUT PAGE */
 
 #mountains-banner {
 overflow: hidden;
@@ -354,4 +386,3 @@ img {
     @include section-margin;
 
 }
-
