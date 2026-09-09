@@ -28,7 +28,7 @@
 
 <h3>📸 Screenshot:</h3>
 
-<img width="1440" height="777" alt="Screenshot 2026-05-04 alle 12 16 19" src="https://github.com/user-attachments/assets/f9fa7d51-2628-449b-9b7f-3f6686d541c0" />
+<img width="1419" height="778" alt="Screenshot 2026-09-09 alle 19 13 09" src="https://github.com/user-attachments/assets/f8be7a1c-0114-4312-a01b-67685ef1b98c" />
 <br>
 <img width="1440" height="777" alt="Screenshot 2026-05-04 alle 12 17 03" src="https://github.com/user-attachments/assets/d0195885-cddc-4e16-b0ce-01dfe8938974" />
 <br>
